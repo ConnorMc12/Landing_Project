@@ -1,0 +1,41 @@
+.Flex-container{
+    display: flex;
+}
+.Flex-container div{
+    color: white;
+    background-color:#1f2937;
+    width: 200px;
+    height: 100px;
+    flex: 1 1 auto;
+    padding-top: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: end;
+    
+}
+
+ #head-1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    flex: 2;
+    
+}
+.head-2{
+    font-size: 18px;
+    text-align: right;
+    flex: 1;
+}
+ .head-3{
+    font-size: 18px;
+    text-align: center;
+    flex:1;
+   
+}
+.head-4{
+    font-size: 18px;
+    text-align: left;
+    flex:1;
+   
+}
